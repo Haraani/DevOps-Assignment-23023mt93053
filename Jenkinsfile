@@ -1,11 +1,10 @@
 pipeline {
      agent any
-     stages {
-        
+     stages {        
         stage('Build') {
             steps {
-                script{
-                    echo " Hello World"
+               echo " Hello World"
+               sh 'mvn clean compile'
                     //python setup.py build // Build the project
                 }
             }
