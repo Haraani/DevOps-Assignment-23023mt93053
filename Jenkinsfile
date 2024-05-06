@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script{
                     echo " Hello World"
-                    python setup.py build // Build the project
+                    //python setup.py build // Build the project
                 }
             }
         }    
