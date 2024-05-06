@@ -10,7 +10,7 @@ def main():
     
     # Check if the HTML file exists
     if not os.path.isfile(html_file_path):
-        print(f"Error: HTML file not found at location {html_file_path}")
+        print(f"Error: HTML file not found at the location {html_file_path}")
         return
     
     # Open the HTML file in the default web browser
