@@ -8,5 +8,10 @@ pipeline {
                     //python setup.py build // Build the project
                 }
             }
+          post{
+               always{
+                    cleanWs()
+               }
+          }
         }    
     }
